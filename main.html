@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MATA MOSQUITOS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body onresize="sizeAdjust()">
+	
+	<div class="painel">
+		<div class="vidas">
+			<img id="v1" src="imagens/coracao_cheio.png" alt="">
+			<img id="v2" src="imagens/coracao_cheio.png" alt="">
+			<img id="v3" src="imagens/coracao_cheio.png" alt="">
+		</div>
+
+		<div class="cronometro">Tempo restante: <span id="cronometro"></span></div>
+	</div>
+
+	<script src="script.js"></script>
+
+	<script>
+		document.getElementById('cronometro').innerHTML = tempo
+	</script>
+</body>
+</html>
